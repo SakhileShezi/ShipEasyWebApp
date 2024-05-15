@@ -1,0 +1,71 @@
+body{
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+header img {
+    height: 35px;
+    width: auto;
+    border-radius: 50px;
+    padding: 10px 10px;
+}
+header{
+    color: #eee;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+.links{
+    display: flex;
+    float: right;
+    margin-right: 30px;
+}
+.links ul li {
+    display: inline;
+    gap: 10px;
+}
+.links ul
+{
+    display: flex;
+    gap: 10px;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+}
+.links ul li a:hover{
+    text-decoration: none;
+    color: darkgray;
+}
+.container{
+    border: 1px solid black;
+    width: 550px;
+    height: 550px;
+    background-color: lavender;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.reg-container input[type="text"],
+.reg-container input[type="email"],
+.reg-container input[type="password"]{
+    width: 80%;
+    margin-bottom: 5px;
+}
+.sign-in{
+    margin: 0;
+    margin-top: 5px;
+}
+
+.password_creteria{
+    font-size: 0.7em;
+}
+.error-msg p{
+    color: red;
+    font-size: 0.7em;
+}
+.error-border{
+    border: 1px solid red;    
+}
