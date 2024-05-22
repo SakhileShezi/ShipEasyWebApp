@@ -103,6 +103,7 @@ header img {
     display: inline;
     gap: 60px;
     font-size: 1em;
+<<<<<<< HEAD
 }
 .export_btn{
     float: right;
@@ -118,4 +119,6 @@ header img {
 }
 .export_btn button:hover{
     background-color: blue;
+=======
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 }

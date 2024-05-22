@@ -176,7 +176,11 @@
                     <h2>Assigned Shipments</h2>
                     <a href="DriverAssinedShipmentServlet.do"><button>View Shipments</button></a>
                 </section>
+<<<<<<< HEAD
                 <%if(!shipments.isEmpty()){%>
+=======
+
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
                 <section>
                     <h2>Upcoming Deliveries</h2>
                     <!-- Display a list of upcoming deliveries -->
@@ -206,7 +210,11 @@
                     </ul>
                     <!-- Add more routes as needed -->
                 </section>
+<<<<<<< HEAD
               <%}%>
+=======
+              
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
             </div>
             <div class="Chat-box">
                 <div class="messages">

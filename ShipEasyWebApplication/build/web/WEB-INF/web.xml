@@ -76,6 +76,7 @@
         <servlet-name>DeliveryReportServlet</servlet-name>
         <servlet-class>ac.za.servlets.DeliveryReportServlet</servlet-class>
     </servlet>
+<<<<<<< HEAD
     <servlet>
         <servlet-name>AddAddressServlet</servlet-name>
         <servlet-class>ac.za.servlets.AddAddressServlet</servlet-class>
@@ -92,6 +93,8 @@
         <servlet-name>DeleteAccount</servlet-name>
         <servlet-class>ac.za.servlets.DeleteAccount</servlet-class>
     </servlet>
+=======
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
     <servlet-mapping>
         <servlet-name>RegistrationServlet</servlet-name>
         <url-pattern>/RegistrationServlet.do</url-pattern>
@@ -168,6 +171,7 @@
         <servlet-name>DeliveryReportServlet</servlet-name>
         <url-pattern>/DeliveryReportServlet.do</url-pattern>
     </servlet-mapping>
+<<<<<<< HEAD
     <servlet-mapping>
         <servlet-name>AddAddressServlet</servlet-name>
         <url-pattern>/AddAddressServlet.do</url-pattern>
@@ -184,6 +188,8 @@
         <servlet-name>DeleteAccount</servlet-name>
         <url-pattern>/DeleteAccount.do</url-pattern>
     </servlet-mapping>
+=======
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
     <session-config>
         <session-timeout>
             30

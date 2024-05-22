@@ -1,9 +1,23 @@
+<<<<<<< HEAD
+=======
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 package security;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
+<<<<<<< HEAD
 
+=======
+/**
+ *
+ * @author Shezi
+ */
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 public class SecurityFilter 
 {
  

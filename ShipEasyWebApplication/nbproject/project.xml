@@ -22,10 +22,13 @@
                     <file>${file.reference.java-security-utilities-3.26.jar}</file>
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
+<<<<<<< HEAD
                 <library dirs="200">
                     <file>${file.reference.javax.mail.jar}</file>
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
+=======
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
             </web-module-libraries>
             <web-module-additional-libraries/>
             <source-roots>

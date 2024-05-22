@@ -1,6 +1,10 @@
 package ac.za.tut.driver;
 
+<<<<<<< HEAD
 import ac.za.tut.bl.DriverFacadeLocal;
+=======
+import ac.za.tut.entities.DriverFacadeLocal;
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 import ac.za.tut.verifyuserdetails.VerifyRegistrationLocal;
 import java.io.IOException;
 import javax.ejb.EJB;
@@ -10,7 +14,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+<<<<<<< HEAD
 import security.SecurityFilter;
+=======
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 
 public class GetDriverServlet extends HttpServlet {
 
@@ -55,11 +62,16 @@ public class GetDriverServlet extends HttpServlet {
             } else {
 
                 if (isPasswordStrong) {
+<<<<<<< HEAD
                     
                  String encypedPassword = SecurityFilter.generateHash(password);
                  System.out.println("Passsword "+encypedPassword);
               
                     Driver newDriver = createDriver(name, surname, email, contactNumber, encypedPassword);
+=======
+
+                    Driver newDriver = createDriver(name, surname, email, contactNumber, password);
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
                     session.setAttribute("driver", newDriver);
                     
                     RequestDispatcher disp = request.getRequestDispatcher("enter_vehicle.jsp");

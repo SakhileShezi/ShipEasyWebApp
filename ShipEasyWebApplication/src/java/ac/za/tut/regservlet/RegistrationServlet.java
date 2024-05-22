@@ -9,6 +9,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+<<<<<<< HEAD
 import ac.za.tut.bl.UserFacadeLocal;
 import ac.za.tut.verifyuserdetails.VerifyRegistrationLocal;
 import java.util.logging.Level;
@@ -16,6 +17,11 @@ import java.util.logging.Logger;
 import javax.mail.MessagingException;
 import security.SecurityFilter;
 import sentEmail.WelcomeEmail;
+=======
+import ac.za.tut.entities.UserFacadeLocal;
+import ac.za.tut.verifyuserdetails.VerifyRegistrationLocal;
+import security.SecurityFilter;
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 
 public class RegistrationServlet extends HttpServlet {
 
@@ -67,6 +73,7 @@ public class RegistrationServlet extends HttpServlet {
                         System.out.println("Passsword "+encypedPassword);
                         User newUser = createNewUser(name, surname, encypedPassword, email, phoneNumber, gender, dob, creationDate);
                         userFacadeSB.create(newUser);
+<<<<<<< HEAD
                         
                         WelcomeEmail welcomeEmail = new WelcomeEmail(name);
                         
@@ -77,6 +84,8 @@ public class RegistrationServlet extends HttpServlet {
                             Logger.getLogger(RegistrationServlet.class.getName()).log(Level.SEVERE, null, ex);
                         }
                         
+=======
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 
                         RequestDispatcher disp = request.getRequestDispatcher("login.jsp");
                         disp.forward(request, response);

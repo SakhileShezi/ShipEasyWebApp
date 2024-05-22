@@ -1,6 +1,10 @@
 package ac.za.tut.driver;
 
+<<<<<<< HEAD
 import ac.za.tut.bl.DriverFacadeLocal;
+=======
+import ac.za.tut.entities.DriverFacadeLocal;
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 import ac.za.tut.vehicle.Vehicle;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -16,7 +20,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import javax.servlet.http.Part;
+<<<<<<< HEAD
 import security.SecurityFilter;
+=======
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 
 @MultipartConfig
 public class CreateDriverServlet extends HttpServlet {
@@ -44,10 +51,13 @@ public class CreateDriverServlet extends HttpServlet {
             if (session != null) {
             
               Driver driver = (Driver)session.getAttribute("driver");
+<<<<<<< HEAD
               
              
                 
               
+=======
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
               driver.setVehicle(vehicle);
               vehicle.setDriver(driver);
               

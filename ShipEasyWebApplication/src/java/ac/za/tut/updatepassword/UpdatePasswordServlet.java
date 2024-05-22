@@ -1,6 +1,10 @@
 package ac.za.tut.updatepassword;
 
+<<<<<<< HEAD
 import ac.za.tut.bl.UserFacadeLocal;
+=======
+import ac.za.tut.entities.UserFacadeLocal;
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 import ac.za.tut.user.User;
 import ac.za.tut.verifyuserdetails.VerifyRegistrationLocal;
 import java.io.IOException;
@@ -10,7 +14,10 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+<<<<<<< HEAD
 import security.SecurityFilter;
+=======
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 
 public class UpdatePasswordServlet extends HttpServlet {
 
@@ -37,10 +44,14 @@ public class UpdatePasswordServlet extends HttpServlet {
                 
             if (isPasswordMatch) {
 
+<<<<<<< HEAD
                 String encryedPassword = SecurityFilter.generateHash(newPassword);
                 
                 user.setPassword(encryedPassword);
                 
+=======
+                user.setPassword(newPassword);
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
                 userFacadeSB.edit(user);
 
                 response.sendRedirect("login.jsp");

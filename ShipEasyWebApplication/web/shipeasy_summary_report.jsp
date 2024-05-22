@@ -1,6 +1,9 @@
 <%@ page import="com.itextpdf.text.*, com.itextpdf.text.pdf.*, java.io.*" %>
+<<<<<<< HEAD
 <%@page contentType="application/pdf; charset=UTF-8"%>
 <%@page pageEncoding="UTF-8"%>
+=======
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 <%
     response.setContentType("application/pdf");
 

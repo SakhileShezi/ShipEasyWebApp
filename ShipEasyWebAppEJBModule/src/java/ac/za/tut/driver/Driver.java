@@ -30,9 +30,15 @@ public class Driver implements Serializable {
     private String surname;
     @Column(name = "EMAIL_ADDRESS",nullable = false,length = 30)
     private String email;
+<<<<<<< HEAD
     @Column(name = "CELL_NR",nullable = false,length = 10,unique = true)
     private String cellNumber;
     @Column(name = "PASSWORD",nullable = false,length = 500)
+=======
+    @Column(name = "CELL_NR",nullable = false,length = 10)
+    private String cellNumber;
+    @Column(name = "PASSWORD",nullable = false,length = 20)
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
     private String password;
     @OneToMany(mappedBy = "assignedDriver")
     private List<Shipment> shipments = new ArrayList<>();

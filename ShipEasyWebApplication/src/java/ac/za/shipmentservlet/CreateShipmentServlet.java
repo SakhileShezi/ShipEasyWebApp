@@ -2,8 +2,13 @@ package ac.za.shipmentservlet;
 
 import ac.za.tut.defaultdriver.DefaultDriver;
 import ac.za.tut.driver.Driver;
+<<<<<<< HEAD
 import ac.za.tut.bl.DefaultDriverFacadeLocal;
 import ac.za.tut.bl.DriverFacadeLocal;
+=======
+import ac.za.tut.entities.DefaultDriverFacadeLocal;
+import ac.za.tut.entities.DriverFacadeLocal;
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 import ac.za.tut.shipmenthandler.ShipmentHandlerLocal;
 import ac.za.tut.shipment.Shipment;
 import ac.za.tut.user.User;
@@ -15,6 +20,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+<<<<<<< HEAD
 import ac.za.tut.bl.ShipmentFacadeLocal;
 import ac.za.tut.product.Product;
 import ac.za.tut.regservlet.RegistrationServlet;
@@ -24,6 +30,12 @@ import java.util.logging.Logger;
 import javax.mail.MessagingException;
 import sentEmail.DriverActivityMail;
 import sentEmail.ShipmentConfirmationMail;
+=======
+import ac.za.tut.entities.ShipmentFacadeLocal;
+import ac.za.tut.entities.StatusFacadeLocal;
+import ac.za.tut.product.Product;
+import ac.za.tut.status.Status;
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 
 public class CreateShipmentServlet extends HttpServlet {
 
@@ -35,6 +47,11 @@ public class CreateShipmentServlet extends HttpServlet {
     private DriverFacadeLocal driverFacadeSBL;
     @EJB
     private DefaultDriverFacadeLocal defDriverSBL;
+<<<<<<< HEAD
+=======
+    @EJB
+    private StatusFacadeLocal statusFacadeSBL;
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
@@ -78,6 +95,7 @@ public class CreateShipmentServlet extends HttpServlet {
                     status.setShipment(shipment);
                     shipment.setStatus(status);
 
+<<<<<<< HEAD
                     session.setAttribute("LoggedInDriver", driver);
                     
                     shipFacadeSB.create(shipment);
@@ -94,6 +112,10 @@ public class CreateShipmentServlet extends HttpServlet {
                         
                         
                         
+=======
+                    shipFacadeSB.create(shipment);
+
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
                     response.sendRedirect("ViewShipmentServlet.do");
                 } else {
 

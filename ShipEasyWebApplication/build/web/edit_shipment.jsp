@@ -25,6 +25,7 @@
         <form action="UpdateShipmentServlet.do" method="GET">
            
             <label>Pick up location:</label>
+<<<<<<< HEAD
             <input type="text" name="pick_up_location" placeholder="<%=shipment.getPickLocation()%>" value="<%=shipment.getPickLocation()%>" required><br>
            
             <label>Destination location:</label>
@@ -32,6 +33,15 @@
             
             <label>Weight (kg):</label>
             <input type="number" name="weight" placeholder="<%=shipment.getProduct().getWeight()%>" value="<%=shipment.getProduct().getWeight()%>" required><br>
+=======
+            <input type="text" name="pick_up_location" placeholder="<%=shipment.getPickLocation()%>" required><br>
+           
+            <label>Destination location:</label>
+            <input type="text" name="destination" placeholder="<%=shipment.getDestination()%>" required><br>
+            
+            <label>Weight (kg):</label>
+            <input type="number" name="weight" placeholder="<%=shipment.getProduct().getWeight()%>" required><br>
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
            
             <label>Type:</label>
             <select name="shipmentType">

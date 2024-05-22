@@ -21,7 +21,11 @@
          
     %>
     <header>
+<<<<<<< HEAD
     <a href="track_parcel.jsp"><img src="images/back_icon.png" alt="shipeasy-logo"></a>
+=======
+    <a href="user_menu.jsp"><img src="images/back_icon.png" alt="shipeasy-logo"></a>
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
     <nav class="links">
         <ul>
             <li><a href="user_menu.jsp">Home</a></li>
@@ -30,9 +34,12 @@
         </ul>
     </nav>
 </header>
+<<<<<<< HEAD
     <div class="export_btn">
             <a href="parcel_tracking_pdf.jsp"><button>Export To PDF</button></a>
         </div>
+=======
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
     <center><h1>Tracking your parcel</h1></center>
     <div class="track">
         <center><h3>TRACKING PARCEL : <%=shipment.getProduct().getTrackingCode()%> </h3></center>

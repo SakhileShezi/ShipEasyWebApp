@@ -29,6 +29,7 @@ img{
     width: 120px;
     border-radius: 100%;
 }
+<<<<<<< HEAD
 .nav-links{
     display: flex;
     float: left;
@@ -53,6 +54,8 @@ img{
     display: inline;
     gap: 30px;
 }
+=======
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 .links{
     display: flex;
     float: right;

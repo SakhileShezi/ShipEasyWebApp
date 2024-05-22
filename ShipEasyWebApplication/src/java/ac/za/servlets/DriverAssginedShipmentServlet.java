@@ -1,7 +1,11 @@
 package ac.za.servlets;
 
 import ac.za.tut.driver.Driver;
+<<<<<<< HEAD
 import ac.za.tut.bl.ShipmentFacadeLocal;
+=======
+import ac.za.tut.entities.ShipmentFacadeLocal;
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 import ac.za.tut.shipment.Shipment;
 import java.io.IOException;
 import java.util.List;

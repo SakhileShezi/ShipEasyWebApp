@@ -1,6 +1,10 @@
 package ac.za.tut.driver;
 
+<<<<<<< HEAD
 import ac.za.tut.bl.DriverFacadeLocal;
+=======
+import ac.za.tut.entities.DriverFacadeLocal;
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 import java.io.IOException;
 import javax.ejb.EJB;
 import javax.servlet.RequestDispatcher;

@@ -24,6 +24,7 @@
                     <li><a href="login.jsp">Logout</a></li>
                     <li><a href="#">Shipment</a></li>
                     <li><a href="profile.jsp">Profile</a></li>
+<<<<<<< HEAD
                     <li><a href="#">Join Us</a></li>
                     <li><a href="shipeasy_summary_report.jsp">Abount Us</a></li>
                 </ul> 
@@ -37,6 +38,12 @@
                 <li><a href="#"><img src="images/noti-icon_2.jpg" alt=""></a></li>
             </ul>
         </nav>
+=======
+                    <li><a href="#">Join us</a></li>
+                </ul> 
+            </nav>
+        </header>
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
         <div class="welcome">
             <center><h1>Welcome to ShipEasy!!</h1></center>
             <a href="profile.jsp"><img src="images/user-profile.jpg" alt="imag"/></a>

@@ -27,7 +27,11 @@ public class DefaultDriver implements Serializable {
     private String slogan;
     @Column(name = "EMAIL_ADDRESS",nullable = false,length = 50)
     private String email;
+<<<<<<< HEAD
     @Column(name = "CONTACT",nullable = false,unique = true)
+=======
+    @Column(name = "CONTACT",nullable = false,length = 50)
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
     private String contactNumber;
     @Column(name = "RATINGS",nullable = false,length = 50)
     private String ratings;

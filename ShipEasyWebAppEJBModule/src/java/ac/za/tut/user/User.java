@@ -43,7 +43,11 @@ public class User implements Serializable {
     @Column(name = "EMAIL_ADDRESS", nullable = false, length = 30)
     private String email;
 
+<<<<<<< HEAD
     @Column(name = "PHONE_NR", nullable = false,unique = true)
+=======
+    @Column(name = "PHONE_NR", nullable = false, length = 10)
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
     private String phoneNumber;
 
     @Column(name = "PASSWORD", nullable = false, length = 500)

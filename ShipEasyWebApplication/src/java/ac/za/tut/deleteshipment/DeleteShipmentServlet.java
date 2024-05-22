@@ -7,7 +7,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+<<<<<<< HEAD
 import ac.za.tut.bl.ShipmentFacadeLocal;
+=======
+import ac.za.tut.entities.ShipmentFacadeLocal;
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 
 public class DeleteShipmentServlet extends HttpServlet {
 

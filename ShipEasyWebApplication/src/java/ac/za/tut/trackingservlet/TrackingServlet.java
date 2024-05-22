@@ -1,8 +1,12 @@
 package ac.za.tut.trackingservlet;
 
+<<<<<<< HEAD
 import ac.za.tut.driver.Driver;
 import ac.za.tut.bl.DriverFacadeLocal;
 import ac.za.tut.bl.ShipmentFacadeLocal;
+=======
+import ac.za.tut.entities.ShipmentFacadeLocal;
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 import ac.za.tut.shipment.Shipment;
 import ac.za.tut.status.Status;
 import ac.za.tut.user.User;
@@ -21,8 +25,11 @@ public class TrackingServlet extends HttpServlet {
 
     @EJB
     private ShipmentFacadeLocal shipFacadeSBL;
+<<<<<<< HEAD
     @EJB
     private DriverFacadeLocal driverFacadeSBL;
+=======
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
@@ -41,13 +48,19 @@ public class TrackingServlet extends HttpServlet {
 
                     if (shipment != null) {
                         
+<<<<<<< HEAD
                         Driver driverAssingned = driverFacadeSBL.findByShipment(shipment.getAssignedDriver().getId());
                         
+=======
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
                         Status status = shipment.getStatus();
 
                         session.setAttribute("shipment", shipment);
                         session.setAttribute("status", status);
+<<<<<<< HEAD
                         session.setAttribute("driverAssingned", driverAssingned);
+=======
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
 
                         RequestDispatcher disp = request.getRequestDispatcher("tracking_parcel.jsp");
                         disp.forward(request, response);

@@ -43,7 +43,11 @@ header{
 .container{
     border: 1px solid black;
     width: 550px;
+<<<<<<< HEAD
     height: 650px;
+=======
+    height: 550px;
+>>>>>>> dd3e0be14ccfb211898bb09058ab81dc8862e11c
     background-color: lavender;
     margin-top: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
