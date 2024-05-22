@@ -1,0 +1,76 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.links{
+    display: flex;
+    float: right;
+    margin-right: 30px;
+}
+.links ul li {
+    display: inline;
+    gap: 10px;
+}
+.links ul
+{
+    display: flex;
+    gap: 10px;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+}
+.links ul li a:hover{
+    text-decoration: none;
+    color: lightslategray;
+}
+
+header img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-left: 10px;
+    border-radius: 100%;
+}
+.tracking-box {
+    margin: 20px;
+    padding: 20px;
+    max-width: 700px;
+    margin-left: 200px;
+}
+
+.tracking-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.tracking-box input[type="text"]{
+    padding: 5px 5px;
+    width: 40%;
+    border-right: 10px;
+}
+.tracking-box input[type="submit"] {
+    padding: 5px 5px;
+    width: 30%;
+    color: white;
+    background: black;
+    border-right: 10px;
+}
+.tracking-box input[type="submit"]:hover {
+    color: black;
+    background: lavender;
+}
+.red_border{
+    border: 2px solid red;
+}
+.error_container p{
+    color: red;
+}

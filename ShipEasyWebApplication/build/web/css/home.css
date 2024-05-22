@@ -1,0 +1,151 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header img{
+
+    height: 70px;
+    width: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+header{
+    background-color: lightslategray;
+    color: #eee;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+header div{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+header div a{
+    color: darkslategray;
+    text-decoration: none;
+}
+header div a:hover{
+    color: lightseagreen;
+}
+header div p{
+    color: black;
+}
+header div h1,h3{
+    color: black;
+}
+.links{
+    display: flex;
+    float: right;
+    margin-right: 30px;
+}
+.links ul li {
+    display: inline;
+    gap: 10px;
+}
+.links ul
+{
+    display: flex;
+    gap: 10px;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+}
+.links ul li a:hover{
+    text-decoration: none;
+    color: #333;
+}
+.text_container {
+    height: 400px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text_container h1{
+    font-family: Verdana,Gevena,sans-serif;
+}
+.text_container  button{
+    height:40px;
+    width: 90px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+.text_container button:hover
+{
+    background:  #eaeaea;
+    color: black;
+}
+
+.image_container{
+    float: right;
+    height: 400px;
+}
+.image_container img{
+    float: right;
+    height: 300px;
+}
+
+footer{
+    width: 100%;
+    background-color: lightslategray;
+    color: white;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    flex-direction: column;
+
+}
+footer .social_icon ,.menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+footer .social_icon li ,.menu li{
+    list-style: none;
+}
+footer .social_icon li a
+{
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer hr
+{
+    font-size: 3px;
+    width: 75%;
+}
+.social_icon img
+{
+    height: 30px;
+    width: 30px;
+}
+footer .menu li a
+{
+    font-size: 0.8em;
+    color: black;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+}
+footer .menu li a:hover{
+    opacity: 1;
+}
